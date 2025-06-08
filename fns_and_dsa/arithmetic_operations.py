@@ -11,16 +11,7 @@ def perform_operation(num1, num2, operation):
         elif num2 > 0:
             return num1/num2
     else:
-        return 
-    # match operation:
-    #     case "add":
-    #         return num1+num2
-    #     case "subtract":
-    #         return num1-num2
-    #     case "divide":
-    #         return num1/num2
-    #     case "multiply":
-    #         return num1*num2
-    
+        return
+  
 
   
