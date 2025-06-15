@@ -15,7 +15,9 @@ class Library:
         self._books.append(book)
         
         
-        
+    def check_out_book(self) :
+        pass
+           
     def check_out_book(self, title):
         for book in self._books:
             if book.title == title and not book._is_checked_out:
