@@ -16,14 +16,14 @@ class Library:
         
         
         
-    def check_out_book(self, title):
+    def check_out(self, title):
         for book in self._books:
             if book.title == title and not book._is_checked_out:
                 book._is_checked_out = True
                 return True
         return False
     
-    def return_book(self,title):
+    def return_book(self, title):
         for book in self._books:
             if book.title == title and book._is_checked_out:
                 book._is_checked_out = False
