@@ -4,6 +4,10 @@ from simple_calculator import SimpleCalculator
 
 class TextClass (unittest.TestCase):
     """Test class for SimpleCalculator."""
+    
+    def setUp(self):
+        # Set up a SimpleCalculator instance before each test
+        self.calculator = SimpleCalculator()
 
     def test_add(self):
         """Test the add method."""
