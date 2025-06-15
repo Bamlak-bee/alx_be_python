@@ -34,3 +34,7 @@ class TextClass (unittest.TestCase):
         """Test the divide method."""
         self.assertEqual(self.calc.divide(6, 3), 2)
         self.assertIsNone(self.calc.divide(5, 0))
+        
+        
+        
+        
