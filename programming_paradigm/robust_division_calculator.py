@@ -13,8 +13,12 @@ def safe_divide(numerator, denominator):
         sys.stdout = io.StringIO()  # Redirect all future prints
     
     except ValueError:
-        raise ValueError("Error: Please enter numeric values only.")
+        print("Error: Please enter numeric values only.")
+        sys.stdout = io.StringIO()  # Redirect all future prints
+
     except ZeroDivisionError:
-        raise ZeroDivisionError("Error: Cannot divide by zero.")
+        print ("Error: Cannot divide by zero.")
+        sys.stdout = io.StringIO()  # Redirect all future prints
+
     
    
