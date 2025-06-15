@@ -22,7 +22,7 @@ class TextClass (unittest.TestCase):
         self.assertEqual(self.calc.subtract(3, -5), 8)
         self.assertEqual(self.calc.subtract(-3, 5), -8)
 
-    def test_multiply(self):
+    def test_multiplication(self):
         """Test the multiply method."""
         self.assertEqual(self.calc.multiply(2, 3), 6)
         self.assertEqual(self.calc.multiply(-1, 5), -5)
@@ -30,7 +30,7 @@ class TextClass (unittest.TestCase):
         self.assertEqual(self.calc.multiply(1, 0), 0)
         self.assertEqual(self.calc.multiply(1, -8), )
 
-    def test_divide(self):
+    def test_division(self):
         """Test the divide method."""
         self.assertEqual(self.calc.divide(6, 3), 2)
         self.assertIsNone(self.calc.divide(5, 0))
